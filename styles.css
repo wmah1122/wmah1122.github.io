@@ -1,12 +1,41 @@
-.n-blue {
-  color: blue;
+/* banner image attributes */
+.BannerImage {
+  background-image: url("images/RuralHouse.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
 }
 
-.para-blue {
-  color: blue;
+/* Responsive banner for Tagline & footer */
+.RBanner {
+  width: 100%;
+  height: auto;
+  background-color: #264d00;
+  color: goldenrod;
 }
 
-.picsize {
-  height: 200px;
-  width: 100px;
+/* Used to put tagline banner right next to jumbotron image */
+.BannerPlace {
+  position: relative;
+  top: -40px;
+  text-align: center;
+}
+
+/* for positioning the navigation buttons vertically within the jumbotron image */
+.NavPosition {
+  position: relative;
+  top: -20px;
+  left: -50px;
+  font-size: x-large;
+  color: black;
+}
+
+.PageCenter {
+  text-align: center;
+}
+
+.ParaLarge {
+  font-size: x-large;
 }
