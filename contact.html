@@ -18,13 +18,15 @@
         <div class="d-flex flex-column bd-highlight mb-3">
           <!-- put Nav bar in banner image, vertical stacking-->
           <div class="p-2 bd-highlight">
-            <a class="nav-link active NavPosition" href="index.html">Home</a>
+            <a class="nav-link  NavPosition" href="index.html">Home</a>
           </div>
           <div class="p-2 bd-highlight">
             <a class="nav-link NavPosition" href="about.html">About</a>
           </div>
           <div class="p-2 bd-highlight">
-            <a class="nav-link NavPosition" href="contact.html">Contact</a>
+            <a class="nav-link active NavPosition" href="contact.html"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
@@ -35,31 +37,48 @@
       <h1>Build Customer Satisfaction on a Technical Foundation</h1>
     </div>
 
+    <!-- header for the contact page -->
     <div>
-      <h1>You need to reach more clients</h1>
-      <p class="ParaLarge">
-        There are so many avenues available, now, to do that.
+      <h1 class="PageCenter">Contact William Hewitt</h1>
+    </div>
+
+    <!-- call to action -->
+    <div>
+      <p class="PageCenter ParaLarge">
+        Submit the form below to discover how the skills presented here can help
+        you find the solutions you need.
+      </p>
+    </div>
+    <!-- contact form -->
+    <div>
+      <form
+        class="PageCenter"
+        action="https://formspree.io/xdodgypg"
+        method="POST"
+      >
+        <label>
+          Your Name:
+          <br />
+          <input type="text" name="name" />
+        </label>
         <br />
-        How do you know what course to take?
-      </p>
+        <label>
+          Your email:
+          <br />
+          <input type="text" name="_replyto" />
+        </label>
+        <br />
+        <label>
+          Your message:
+          <br />
+          <textarea name="message"></textarea>
+        </label>
+        <br />
 
-      <h2>
-        You need someone who understands both clients and technology.
-      </h2>
-      <p class="ParaLarge">
-        You want someone who can understand customer needs but also knows the
-        technology to deliver those benefits.
-      </p>
-      <h2>What you can do?</h2>
-      <p class="ParaLarge">
-        My skills and experience can help you fill your needs.
-      </p>
-      <a class="btn btn-primary" href="about.html" role="button">Learn How!</a>
-
+        <!-- form submit button -->
+        <button type="submit">Send</button>
+      </form>
       <br />
-      <p class="ParaLarge">
-        <a href="contact.html">Contact Me</a> now to discuss this in person.
-      </p>
     </div>
 
     <!-- Footer -->
