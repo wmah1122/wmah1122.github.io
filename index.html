@@ -15,15 +15,31 @@
     <!-- Page header banner jumbotron-->
     <div class="jumbotron jumbotron-fluid BannerImage">
       <div class="container">
+        <!-- puts the resume button in the upper right corner of the banner image -->
+        <a
+          class="btn btn-outline-success btn-sm BannerButton"
+          href="William_Hewitt-Resume - se.pdf"
+          role="button"
+          >William Hewitt Resume</a
+        >
+
+        <!-- Put picture at top right of Banner image-->
+        <a href="William_Hewitt-Resume - se.pdf">
+          <img
+            src="images/William.JPG"
+            style="position: absolute; right: 16px;"
+          />
+        </a>
+
         <div class="d-flex flex-column bd-highlight mb-3">
           <!-- put Nav bar in banner image, vertical stacking-->
-          <div class="p-2 bd-highlight">
+          <div class="p-2 bd-highlight NavStyle">
             <a class="nav-link active NavPosition" href="index.html">Home</a>
           </div>
-          <div class="p-2 bd-highlight">
+          <div class="p-2 bd-highlight NavStyle">
             <a class="nav-link NavPosition" href="about.html">About</a>
           </div>
-          <div class="p-2 bd-highlight">
+          <div class="p-2 bd-highlight NavStyle">
             <a class="nav-link NavPosition" href="contact.html">Contact</a>
           </div>
         </div>
@@ -35,31 +51,46 @@
       <h1>Build Customer Satisfaction on a Technical Foundation</h1>
     </div>
 
-    <div>
-      <h1>You need to reach more clients</h1>
-      <p class="ParaLarge">
-        There are so many avenues available, now, to do that.
+    <!-- main body text -->
+    <div class="container">
+      <!-- Stating the Interest-->
+      <div class="container PadContainer PageCenter">
+        <h1>You need to reach more clients.</h1>
+        <p class="ParaLarge">
+          There are so many avenues available to do that now.
+          <br />
+          How do you know what course to take?
+        </p>
+      </div>
+      <!-- Stating the desire-->
+      <div class="container PadContainer PageCenter">
+        <h2>
+          You need someone who understands both clients and technology.
+        </h2>
+        <p class="ParaLarge">
+          You want someone who can understand customer needs but also knows the
+          technology to deliver those benefits.
+        </p>
+      </div>
+
+      <!-- CTA to learn more-->
+      <div class="container PadContainer PageCenter">
+        <h2>What you can do?</h2>
+        <p class="ParaLarge">
+          My skills and experience can help you fill your needs.
+        </p>
+        <div class="PageCenter">
+          <a class="btn btn-primary" href="about.html" role="button"
+            >Learn How!</a
+          >
+        </div>
+
+        <!-- CTA to contact me-->
         <br />
-        How do you know what course to take?
-      </p>
-
-      <h2>
-        You need someone who understands both clients and technology.
-      </h2>
-      <p class="ParaLarge">
-        You want someone who can understand customer needs but also knows the
-        technology to deliver those benefits.
-      </p>
-      <h2>What you can do?</h2>
-      <p class="ParaLarge">
-        My skills and experience can help you fill your needs.
-      </p>
-      <a class="btn btn-primary" href="about.html" role="button">Learn How!</a>
-
-      <br />
-      <p class="ParaLarge">
-        <a href="contact.html">Contact Me</a> now to discuss this in person.
-      </p>
+        <p class="ParaLarge PadContainer">
+          <a href="contact.html">Contact Me</a> now to discuss this in person.
+        </p>
+      </div>
     </div>
 
     <!-- Footer -->
@@ -67,6 +98,7 @@
       <a href="http:\\www.linkedin.com/in/william-hewitt-9a7b466">
         <img src="images/LinkedIn.png" alt="" height="50px" width="50px" />
       </a>
+      <p class="RightFoot">Published by William Hewitt</p>
     </div>
 
     <script
