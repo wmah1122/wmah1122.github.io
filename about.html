@@ -9,21 +9,36 @@
     />
     <link rel="stylesheet" href="styles.css" />
 
-    <title>William Hewitt Home Page</title>
+    <title>William Hewitt About Page</title>
   </head>
   <body>
     <!-- Page header banner jumbotron-->
     <div class="jumbotron jumbotron-fluid BannerImage">
       <div class="container">
+
+        <!-- puts the resume button in the upper right corner of the banner image -->
+        <a class="btn btn-outline-success btn-sm BannerButton" 
+        href="William_Hewitt-Resume - se.pdf" 
+        role="button">William Hewitt Resume</a>
+        
+        <!-- Put picture at top right of Banner image-->
+        <a 
+        href="William_Hewitt-Resume - se.pdf">
+        <img
+        src="images/William.JPG"
+        style="position: absolute; right: 16px;"
+        >
+        </a>
+        
         <div class="d-flex flex-column bd-highlight mb-3">
-          <!-- put Nav bar in banner image, vertical stacking-->
-          <div class="p-2 bd-highlight">
+           <!-- put Nav bar in banner image, vertical stacking-->
+          <div class="p-2 bd-highlight NavStyle">
             <a class="nav-link  NavPosition" href="index.html">Home</a>
           </div>
-          <div class="p-2 bd-highlight">
+          <div class="p-2 bd-highlight NavStyle">
             <a class="nav-link active NavPosition" href="about.html">About</a>
           </div>
-          <div class="p-2 bd-highlight">
+          <div class="p-2 bd-highlight NavStyle">
             <a class="nav-link NavPosition" href="contact.html">Contact</a>
           </div>
         </div>
@@ -39,12 +54,14 @@
       <h1 class="PageCenter">About William Hewitt</h1>
     </div>
 
-    <div>
+    <div class="container"> <!-- container for content of page body-->
       <p class="PageCenter Paralarge">
         Here is a summary of the value my experience can bring to your team:
       </p>
       <!-- Three general areas of expertise, 1 row, 3 columns-->
       <div class="row">
+
+        <!-- first column-->
         <div class="col-sm-4">
           <div class="card">
             <div class="card-body">
@@ -54,10 +71,17 @@
                   <li>Client Case Manager</li>
                   <li>Customer Technical Liaison</li>                  
                 </ul>
+                <br>
+                <p class="PageCenter">
+                Working directly with clients to understand what they were looking for and to bring 
+                that understanding to bear in providing the right solutions to their needs.
+                </p>
               </p>
             </div>
           </div>
         </div>
+
+        <!-- Second column-->
         <div class="col-sm-4">
           <div class="card">
             <div class="card-body">
@@ -69,10 +93,17 @@
                   <li>Software Testing</li>
                   <li>Web Development & Optimization</li>
                 </ul>
+                <br>
+                <p class="PageCenter">
+                Engineering and technical skills that have allowed me to be engaged in a number of different 
+                projects which I quickly gained an understanding of the underlying technologies.
+                </p>
               </p>
             </div>
           </div>
         </div>
+
+        <!-- Third column-->
         <div class="col-sm-4">
           <div class="card">
             <div class="card-body">
@@ -83,6 +114,10 @@
                   <li>Detail Oriented</li>
                   <li>Quality through Process</li>
                 </ul>
+                <p class="PageCenter">
+                Good organizational skills, attention to details, and the ability to engage in process 
+                improvement and project management.
+                </p>
                 </p>
             </div>
           </div>
@@ -90,17 +125,24 @@
       </div>
 
 <p></p>
-      <p class="ParaLarge">
+
+      <!--CTA for looking at resume-->
+     <div class="container PadContainer">
+       <p class="ParaLarge PageCenter">
         To learn more details click here to view my resume.
       </p>
+      <div class="PageCenter">
       <a class="btn btn-primary" href="William_Hewitt-Resume - se.pdf" role="button">William Hewitt Resume</a>
-    </div>
+      </div>
+     </div>
+    </div>  <!-- end of container for page body-->
 
     <!-- Footer -->
     <div class="RBanner">
       <a href="http:\\www.linkedin.com/in/william-hewitt-9a7b466">
         <img src="images/LinkedIn.png" alt="" height="50px" width="50px" />
       </a>
+      <p class="RightFoot">Published by William Hewitt</p>
     </div>
 
     <script

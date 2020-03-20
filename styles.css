@@ -6,6 +6,16 @@
   height: 60vh;
   background-size: cover;
   background-position: center;
+  opacity: 0.75;
+}
+
+/* position the resume button in upper right of banner image */
+.BannerButton {
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  color: black;
+  font-weight: bolder;
 }
 
 /* Responsive banner for Tagline & footer */
@@ -14,9 +24,10 @@
   height: auto;
   background-color: #264d00;
   color: goldenrod;
+  padding: 10px;
 }
 
-/* Used to put tagline banner right next to jumbotron image */
+/* Used to put tagline banner just under the jumbotron image */
 .BannerPlace {
   position: relative;
   top: -40px;
@@ -32,10 +43,24 @@
   color: black;
 }
 
+.NavStyle {
+  font-weight: bolder;
+}
+
 .PageCenter {
   text-align: center;
 }
 
 .ParaLarge {
   font-size: x-large;
+}
+
+.PadContainer {
+  padding: 10px;
+}
+
+.RightFoot {
+  float: right;
+  font-size: 75%;
+  color: goldenrod;
 }
